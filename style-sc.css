@@ -1,0 +1,161 @@
+body {
+    background-color: #252525;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#cabecalho {
+    text-align: center;
+    font-size: 35px;
+}
+#titulo{
+    margin: 15px;
+}
+#nome{
+    margin: 1px;
+}
+#email{
+    margin:1px;
+}
+.grupo{
+    margin: 15px;
+    text-align: justify;
+}
+#mensagem{
+    margin:1px
+}
+.botao{
+    margin-left: 15px;
+}
+#identificaLeft{
+    text-align: left;
+    margin: 10px;
+}
+#identificaRight{
+    text-align: right;
+    margin: 10px;
+}
+#navbar {
+    margin: 15px;
+    display: flex;
+    background-color: #404040;
+    list-style-type: none;
+}
+.navbar a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 16px 40px;
+    text-decoration: none;
+}
+.navbar a:hover:not(.selected) {
+    background-color: #008db8;
+}
+.selected {
+    background-color: #4CAF50;
+    font-weight: bold;
+}
+.right {
+    position: absolute;
+    right: 15px;
+}
+.selected.right {
+    background-color: #4CAF50;
+    font-weight: bold;
+    position: absolute;
+    right: 15px;
+}
+.coluna-2 {
+    width: 25%;
+}
+.coluna-8 {
+    width: 50%;
+}
+.coluna-12 {
+    width: 100%;
+}
+
+#noticias {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+#noticias_1 {
+    background-image: url(https://abcreporter.com.br/wp-content/uploads/2020/03/Coronavirus-AbcReporter.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#noticias_2 {
+    background-image: url(https://saude.abril.com.br/wp-content/uploads/2021/03/covid-o-que-%C3%A9-sintomas-tratamentos-vacina.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#noticias_3 {
+    background-image: url(https://www.pfizer.com.br/sites/default/files/inline-images/covid-19.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#noticias_4 {
+    background-image: url(https://s3.static.brasilescola.uol.com.br/be/2021/02/covid-19.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#noticias_5 {
+    background-image: url(https://static.poder360.com.br/2021/05/covid-1-868x644-1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+#noticias_6 {
+    background-image: url(https://img.pebmed.com.br/wp-content/uploads/2020/08/10142803/covid-19_retina.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#imagem_COVID {
+    background-image: url(https://rockcontent.com/br/wp-content/uploads/sites/2/2020/02/teste-de-lideran%C3%A7a.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.center {
+	width: 100%;
+	height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.news {
+    height: 27vh;
+}
+.news-1 {
+    height: 23vh;
+}
+.news-1:nth-of-type(2) {
+    height: 31vh;
+}
+.txtNews {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    transition: all .4s;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.txtNews:hover {
+    opacity: 1;
+}
+
+#conteudo {
+    margin: 15px;
+    padding: 6px;
+    border: 2px dashed white;
+}
+
+a {
+    color: grey;
+}
