@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>COVID</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .txtNews {
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(8px);
+            transition: all .4s;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            display: flex;
+        }
+        .txtNews:hover {
+            opacity: 1;
+        }
+        .txtNews h1 {
+            text-align: center;
+        }
+        .txtNews p {
+            width: 65%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cabecalho">
+        <h1>BEM-COVID</h1>
+    </div>
+    <div id="navbar">
+        <div class="navbar"><a class="selected" href="index.html">Home</a></div>
+        <div class="navbar"><a href="sobre.html">Sobre</a></div>
+        <div class="navbar"><a href="contato.html">Contato</a></div>
+        <div class="navbar"><a class="right" href="saibamais.html">Saiba Mais</a></div>
+    </div>
+
+    <div id="noticias">
+
+        <div class="coluna-1">
+            <div id="noticias_1" class="news">
+                <div class="txtNews">
+                    <h1>A importância da Máscara</h3>
+                    <p>Máscaras: as lições de estudo da USP sobre as que mais protegem da covid-19</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="coluna-2">
+            <div id="noticias_2" class="news">
+                <div class="txtNews">
+                    <h1>Avanço da Ciência</h3>
+                    <p>A potencial vantagem da CoronaVac contra variantes da covid-19</p>
+                </div>
+            </div>
+            <div id="noticias_3" class="news">
+                <div class="txtNews">
+                    <h1>Consciência Empresarial</h3>
+                    <p>Executiva e comitê médico lideram fundo de R$ 1 bi e ações históricas</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="coluna-3">
+            <div id="noticias_4" class="news">
+                <div class="txtNews">
+                    <h1>Vidas salvas</h3>
+                    <p>3 boas notícias que mostram o impacto positivo da vacinação no Brasil</p>
+                </div>
+            </div>
+            <div id="noticias_5" class="news">
+                <div class="txtNews">
+                    <h1>Vacina contra COVID</h3>
+                    <p>4 boas notícias sobre novos tratamentos em testes contra a covid-19</p>
+                </div>
+            </div>
+            <div id="noticias_6" class="news">
+                <div class="txtNews">
+                    <h1>Quarentena é VIDA!</h3>
+                    <p>6 boas notícias após um ano de pandemia, apesar da tragédia no Brasil</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

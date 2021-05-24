@@ -1,0 +1,170 @@
+body {
+    background-color: #252525;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#cabecalho {
+    text-align: center;
+    font-size: 35px;
+}
+
+#navbar {
+    margin: 15px;
+    display: flex;
+    background-color: #404040;
+    list-style-type: none;
+    border-radius: 15px;
+}
+.navbar a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 16px 40px;
+    text-decoration: none;
+}
+.navbar a:hover:not(.selected) {
+    background-color: #34628B;
+    border-radius: 15px;
+}
+.selected {
+    background-color: #4CAF50;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.right {
+    position: absolute;
+    right: 15px;
+}
+.selected.right {
+    background-color: #4CAF50;
+    font-weight: bold;
+    position: absolute;
+    right: 15px;
+    border-radius: 15px;
+}
+
+.coluna-1 {
+    width: 25%;
+}
+.coluna-2 {
+    width: 25%;
+}
+.coluna-3 {
+    width: 50%;
+}
+
+#noticias {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+#noticias_1 {
+    background-image: url(images/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+#noticias_2 {
+    background-image: url(images/img-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#noticias_3 {
+    background-image: url(images/img-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#noticias_4 {
+    background-image: url(images/img-4.jpg);
+    background-position: center;
+    background-size: cover;
+    width:60%;
+    float:left;
+}
+#noticias_5 {
+    background-image: url(images/img-5.jpg);
+    background-position: center;
+    background-size: cover;
+    width:40%;
+    float:right;
+}
+#noticias_6 {
+    background-image: url(images/img-6.jpg);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    float:right;
+}
+.news {
+    height: 30vh;
+}
+
+#referencias {
+    margin: 15px;
+    padding: 6px;
+    border: 2px solid #404040;
+    border-radius: 15px;
+    background-color: #2c2c2c;
+}
+a {
+    color: grey;
+}
+ul li.link {
+    margin-bottom: 34px;
+}
+
+#contato {
+    margin: 15px;
+    padding: 3px 10%;
+    display: flex;
+    flex-direction: row;
+}
+input#nome {
+    width: 350px;
+}
+input#email {
+    width: 350px;
+}
+
+#sobre_nos {
+    margin: 15px;
+    padding: 3px 38px;
+}
+#perfis {
+    margin: 50px;
+}
+.identity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.people {
+    display: flex;
+}
+.people img {
+    border-radius: 50%;
+}
+.people.left {
+    position: sticky;
+    text-align: left;
+    padding: 20px;
+    max-width: 500px;
+}
+.people.right {
+    position: sticky;
+    text-align: right;
+    padding: 20px;
+    max-width: 500px;
+}
+.people .desc {
+    margin: 18px;
+}
+
+.imagem_Mask {
+    position: relative;
+    top: 60px;
+    left: 60px;
+}

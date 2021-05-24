@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>COVID</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="cabecalho">
+        <h1>BEM-COVID</h1>
+    </div>
+    <div id="navbar">
+        <div class="navbar"><a href="index.html">Home</a></div>
+        <div class="navbar"><a href="sobre.html">Sobre</a></div>
+        <div class="navbar"><a class="selected" href="contato.html">Contato</a></div>
+        <div class="navbar"><a class="right" href="saibamais.html">Saiba Mais</a></div>
+    </div>
+
+    <div id="contato">
+        <div>
+        <h1>Contato</h1>
+        <p>Cadastre-se para participar desse movimento da boa notícia e viver com mais leveza!</p>
+
+        <form action="">
+            <label>Nome</label><br>
+            <input id="nome" type="text" name="nome"><br><br>
+            <label>E-mail</label><br>
+            <input id="email" type="email" name="email"><br><br><br>
+            <label>Boas notícias pandêmicas</label><br>
+            <input id="quero_receber" type="radio" name="devweb" value="queroreceber">
+            <label for="quero_receber">Quero receber</label><br>
+            <input id="quero_compartilhar" type="radio" name="devweb" value="querocompartilhar">
+            <label for="quero_compartilhar">Quero compartilhar</label><br><br>
+            <label>Deixe sua mensagem</label><br>
+            <textarea id="mensagem" name="mensagem" rows="9" cols="50"></textarea><br><br>
+            <input type="submit" value="Enviar!">
+        </form>
+        </div>
+
+        <div><img class="imagem_Mask" src="images/mascara.png"/></div>
+    </div>
+</body>
+</html>
